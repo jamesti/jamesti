@@ -28,6 +28,7 @@ module.exports = function(grunt) {
 		extras: {
 		  src: ['bower_components/bootstrap/dist/css/bootstrap.min.css',
                         'bower_components/fontawesome/css/font-awesome.min.css',
+                        'public_html/dist/css/landing-page.min.css',
                         'bower_components/jquery.ui/dist/jquery-ui.min.css'],
 		  dest: 'public_html/dist/css/built.min.css',
 		},
@@ -36,9 +37,9 @@ module.exports = function(grunt) {
         cssmin: {
                 minify: {
                   expand: true,
-                  cwd: 'assets/css/',
-                  src: ['zcustom.css'],
-                  dest: 'assets/css/',
+                  cwd: 'public_html/dist/css/',
+                  src: ['landing-page.css'],
+                  dest: 'public_html/dist/css/',
                   ext: '.min.css'
                 }
               }
@@ -53,6 +54,6 @@ module.exports = function(grunt) {
         grunt.loadNpmTasks('grunt-contrib-cssmin');
         
 	// Default task(s).
-	grunt.registerTask('default', ['concat']);
+	grunt.registerTask('default', ['cssmin','concat']);
 
 };

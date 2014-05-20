@@ -16,10 +16,32 @@ App::before(function($request)
 	//
 });
 
-
+/*
+* An improvised Gist from
+* https://gist.github.com/zmsaunders/5619519
+* https://gist.github.com/garagesocial/6059962
+*/
 App::after(function($request, $response)
 {
-	//
+		if(App::Environment() != 'local')
+		{
+			if($response instanceof Illuminate\Http\Response)
+			{
+				$output = $response->getOriginalContent();
+				$filters = array(
+						//Remove HTML comments except IE conditions
+						'/<!--(?!\s*(?:\[if [^\]]+]|<!|>))(?:(?!-->).)*-->/s'	=> '',
+						// Remove comments in the form /* */
+						'/(?<!\S)\/\/\s*[^\r\n]*/'	=> '',
+						// Shorten multiple white spaces
+						'/\s{2,}/'	=> '',
+						// Collapse new lines
+						'/(\r?\n)/'	=> '',
+					);
+				$output = preg_replace(array_keys($filters), array_values($filters), $output);
+				$response->setContent($output);
+			}
+		}
 });
 
 /*
