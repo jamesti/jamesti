@@ -7,7 +7,7 @@
     <meta name=author content="James Moreira">
     <title>James T.I. - Consultor e Web Developer</title>
     <!-- Bootstrap core CSS -->
-	<link media=all type="text/css" rel=stylesheet href="<?=URL::to('http://static.jamesti.com.br/css/built.min.css')?>">
+	<link media=all type="text/css" rel=stylesheet href="<?=URL::to('http://cdn.jamesti.url.ph/css/built.min.css')?>">
 </head>
 <body>
     <nav class="navbar navbar-default navbar-fixed-top" role=navigation>
@@ -70,7 +70,7 @@
                     <p class=lead>A special thanks to Death to the Stock Photo for providing the photographs that you see in this template. <a target=_blank href="http://join.deathtothestockphoto.com/">Visit their website</a> to become a member.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class=img-responsive width=455 height=352 src="<?= URL::to('https://farm6.staticflickr.com/5031/14040657569_bacde1928b_o.png') ?>" alt=iPad>
+                    <img class=img-responsive width=455 height=352 src="<?= URL::to('http://cdn.jamesti.url.ph/img/ipad.png') ?>" alt=iPad>
                 </div>
             </div>
         </div>
@@ -88,7 +88,7 @@
                     <p class=lead>Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by PSDCovers! <a target=_blank href="http://www.psdcovers.com/">Visit their website</a> to download some of their awesome, free photoshop actions!</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class=img-responsive width=455 height=381 src="<?= URL::to('https://farm6.staticflickr.com/5036/14224982262_2dcbec80e5_o.png') ?>" alt=Dog>
+                    <img class=img-responsive width=455 height=381 src="<?= URL::to('http://cdn.jamesti.url.ph/img/doge.png') ?>" alt=Dog>
                 </div>
             </div>
         </div>
@@ -106,7 +106,7 @@
                     <p class=lead>This template features the 'Lato' font, part of the <a target=_blank href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target=_blank href="http://fontawesome.io">icons from Font Awesome</a>.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class=img-responsive width=455 height=301 src="<?= URL::to('http://i.imgur.com/xHsyTps.jpg') ?>" alt=iPhone>
+                    <img class=img-responsive width=455 height=301 src="<?= URL::to('http://cdn.jamesti.url.ph/img/phones.png') ?>" alt=iPhone>
                 </div>
             </div>
         </div>
@@ -155,4 +155,4 @@
                 </div>
             </div>
         </div>
-    </footer><script src="<?=URL::to('http://static.jamesti.com.br/js/built.min.js')?>"></script>
+    </footer><script src="<?=URL::to('http://cdn.jamesti.url.ph/js/built.min.js')?>"></script>

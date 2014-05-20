@@ -21,15 +21,13 @@ module.exports = function(grunt) {
 		},
 		dist: {
 		  src: ['bower_components/jquery/dist/jquery.min.js',
-                        'bower_components/jquery.ui/dist/jquery-ui.min.js',
                         'bower_components/bootstrap/dist/js/bootstrap.min.js'],
 		  dest: 'public_html/dist/js/built.min.js',
 		},
 		extras: {
 		  src: ['bower_components/bootstrap/dist/css/bootstrap.min.css',
                         'bower_components/fontawesome/css/font-awesome.min.css',
-                        'public_html/dist/css/landing-page.min.css',
-                        'bower_components/jquery.ui/dist/jquery-ui.min.css'],
+                        'public_html/dist/css/landing-page.min.css'],
 		  dest: 'public_html/dist/css/built.min.css',
 		},
 	  },
