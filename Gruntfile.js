@@ -20,7 +20,7 @@ module.exports = function(grunt) {
 			'<%= grunt.template.today("yyyy-mm-dd") %> */',
 		},
 		dist: {
-		  src: ['bower_components/jquery/jquery.min.js',
+		  src: ['bower_components/jquery/dist/jquery.min.js',
                         'bower_components/bootstrap/dist/js/bootstrap.min.js'],
 		  dest: 'public_html/dist/js/built.min.js',
 		},
