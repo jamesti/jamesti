@@ -9,6 +9,7 @@
         <!-- Bootstrap core CSS -->
         <link rel=stylesheet href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
         <link rel=stylesheet href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+        <link rel=stylesheet href="//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic">
         <link rel=stylesheet href="<?= URL::to('//cdn.jamesti.url.ph/css/landing-page.min.css') ?>">
     </head>
     <body>
@@ -28,7 +29,7 @@
                     <ul class="nav navbar-nav">
                         <li><a href="#about">Sobre</a>
                         </li>
-                        <li><a href="#services">Serviços</a>
+                        <li><a href="#services" data-toggle=modal data-target=.bs-servicos-modal-lg>Serviços</a>
                         </li>
                         <li><a href="#contact">Contato</a>
                         </li>
@@ -47,11 +48,11 @@
                             <h3>Engenheiro de Software</h3>
                             <hr class=intro-divider>
                             <ul class="list-inline intro-social-buttons">
-                                <li><a href="https://twitter.com/jamescomplexo" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class=network-name>Twitter</span></a>
+                                <li><a href="//twitter.com/jamescomplexo" target=_blank class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class=network-name>Twitter</span></a>
                                 </li>
-                                <li><a href="https://github.com/nyubai" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class=network-name>Github</span></a>
+                                <li><a href="//github.com/nyubai" target=_blank class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class=network-name>Github</span></a>
                                 </li>
-                                <li><a href="http://www.linkedin.com/in/jameslegal" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class=network-name>Linkedin</span></a>
+                                <li><a href="//www.linkedin.com/in/jameslegal" target=_blank class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class=network-name>Linkedin</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -72,7 +73,7 @@
                         <p class=lead>A special thanks to Death to the Stock Photo for providing the photographs that you see in this template. <a target=_blank href="http://join.deathtothestockphoto.com/">Visit their website</a> to become a member.</p>
                     </div>
                     <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                        <img class=img-responsive width=455 height=352 src="<?= URL::to('http://cdn.jamesti.url.ph/img/ipad.png') ?>" alt=iPad>
+                        <img class=img-responsive width=455 height=352 src="<?= URL::to('//cdn.jamesti.url.ph/img/ipad.png') ?>" alt=iPad>
                     </div>
                 </div>
             </div>
@@ -90,7 +91,7 @@
                         <p class=lead>Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by PSDCovers! <a target=_blank href="http://www.psdcovers.com/">Visit their website</a> to download some of their awesome, free photoshop actions!</p>
                     </div>
                     <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                        <img class=img-responsive width=455 height=381 src="<?= URL::to('http://cdn.jamesti.url.ph/img/doge.png') ?>" alt=Dog>
+                        <img class=img-responsive width=455 height=381 src="<?= URL::to('//cdn.jamesti.url.ph/img/doge.png') ?>" alt=Dog>
                     </div>
                 </div>
             </div>
@@ -108,7 +109,7 @@
                         <p class=lead>This template features the 'Lato' font, part of the <a target=_blank href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target=_blank href="http://fontawesome.io">icons from Font Awesome</a>.</p>
                     </div>
                     <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                        <img class=img-responsive width=455 height=301 src="<?= URL::to('http://cdn.jamesti.url.ph/img/phones.png') ?>" alt=iPhone>
+                        <img class=img-responsive width=455 height=301 src="<?= URL::to('//cdn.jamesti.url.ph/img/phones.png') ?>" alt=iPhone>
                     </div>
                 </div>
             </div>
@@ -123,11 +124,11 @@
                     </div>
                     <div class=col-lg-6>
                         <ul class="list-inline banner-social-buttons">
-                            <li><a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class=network-name>Twitter</span></a>
+                            <li><a href="//twitter.com/jamescomplexo" target=_blank class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class=network-name>Twitter</span></a>
                             </li>
-                            <li><a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class=network-name>Github</span></a>
+                            <li><a href="//github.com/nyubai" target=_blank class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class=network-name>Github</span></a>
                             </li>
-                            <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class=network-name>Linkedin</span></a>
+                            <li><a href="//www.linkedin.com/in/jameslegal" target=_blank class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class=network-name>Linkedin</span></a>
                             </li>
                         </ul>
                     </div>
@@ -158,5 +159,27 @@
                 </div>
             </div>
         </footer>
+
+        <!-- Modals do Navbar -->
+
+        <div class="modal fade bs-servicos-modal-lg" tabindex=-1 role=dialog aria-labelledby=myModalServicos aria-hidden=true>
+            <div class="modal-dialog modal-lg">
+                <div class=modal-content>
+                    <div class=modal-header>
+                        <button type=button class=close data-dismiss=modal aria-hidden=true>&times;</button>
+                        <h4 class=modal-title id=myModalServicos>Serviços do Artesão</h4>
+                    </div>
+                    <div class=modal-body>
+                        <pre>São vários serviços oferecidos!</pre>
+                    </div>
+                    <div class=modal-footer>
+                        <button type=button class="btn btn-default" data-dismiss=modal>Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- /.Modals -->
+
         <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
