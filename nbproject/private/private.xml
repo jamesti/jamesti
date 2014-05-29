@@ -3,10 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/DEV/xampp/htdocs/jamesti/app/views/cats/master.blade.php</file>
-            <file>file:/E:/DEV/xampp/htdocs/jamesti/app/routes.php</file>
-            <file>file:/E:/DEV/xampp/htdocs/jamesti/app/views/landing_page/index.php</file>
-            <file>file:/E:/DEV/xampp/htdocs/jamesti/app/views/cats/about.blade.php</file>
+            <file>file:/C:/xampp/htdocs/jamesti/app/views/cats/master.blade.php</file>
+            <file>file:/C:/xampp/htdocs/jamesti/public_html/dist/.htaccess</file>
+            <file>file:/C:/xampp/htdocs/jamesti/app/views/cats/about.blade.php</file>
+            <file>file:/C:/xampp/htdocs/jamesti/app/views/cats/edit.blade.php</file>
+            <file>file:/C:/xampp/htdocs/jamesti/app/routes.php</file>
+            <file>file:/C:/xampp/htdocs/jamesti/app/views/cats/single.blade.php</file>
+            <file>file:/C:/xampp/htdocs/jamesti/app/views/landing_page/index.php</file>
+            <file>file:/C:/xampp/htdocs/jamesti/Gruntfile.js</file>
+            <file>file:/C:/xampp/htdocs/jamesti/app/config/database.php</file>
+            <file>file:/C:/xampp/htdocs/jamesti/app/views/cats/index.blade.php</file>
         </group>
     </open-files>
 </project-private>
